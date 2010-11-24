@@ -110,6 +110,7 @@ END{
 
       for(i=1; i <= quantils_count; i++)
         printf "quantil_%.1f:\t%i (ms)\n", quantils[i], (average_request_time_for_quantil[i] * 1000)
+
     }
     else
       print now_date","count","count_fine","count_normal","count_bad
